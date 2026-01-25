@@ -1,0 +1,12 @@
+session_name: D2_Summary
+start_directory: ~/Notes/D2/Summary
+
+windows:
+  - window_name: Vim
+    panes: 
+      - shell_command:
+        - nvim
+  - window_name: Quarto
+    panes: 
+      - shell_command:
+        - quarto preview

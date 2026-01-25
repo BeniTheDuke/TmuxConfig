@@ -1,0 +1,13 @@
+session_name: Track1Report
+start_directory: ~/Notes/Track_1/
+
+windows:
+  - window_name: Vim
+    panes: 
+      - shell_command:
+        - nvim
+  - window_name: Quarto
+    panes: 
+      - shell_command:
+        - quarto preview 
+

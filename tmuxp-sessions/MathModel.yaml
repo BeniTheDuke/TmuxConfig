@@ -1,0 +1,15 @@
+session_name: MathematicalModeling
+start_directory: ~/ZHAW/Mathematical_Modelling/git_repository/moran_model
+
+windows:
+  - window_name: Vim
+    panes: 
+      - shell_command:
+        - srcnvim
+        - nvim
+  - window_name: Quarto
+    panes: 
+      - shell_command:
+        - srcnvim
+        - quarto preview report.qmd
+
