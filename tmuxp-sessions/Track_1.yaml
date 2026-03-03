@@ -9,5 +9,5 @@ windows:
   - window_name: Quarto
     panes: 
       - shell_command:
-        - quarto preview 
+        - quarto preview --to pdf
 
