@@ -1,0 +1,17 @@
+session_name: SoE
+start_directory: ~/ZHAW/SoE/
+
+windows:
+  - window_name: Vim_Ayoyo
+    panes: 
+      - shell_command:
+        - source ~/.venvs/SoE/bin/activate
+        - cd Ayoayo_git_repo
+        - nvim
+  - window_name: Vim_Pygame
+    panes: 
+      - shell_command:
+        - source ~/.venvs/SoE/bin/activate
+        - cd pygame_ce
+        - nvim
+
