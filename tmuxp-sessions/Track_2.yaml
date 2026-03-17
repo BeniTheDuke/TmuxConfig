@@ -1,0 +1,18 @@
+session_name: Track_2
+start_directory: ~/
+
+windows:
+  - window_name: Notes 
+    panes: 
+      - shell_command:
+        - cd ~/Notes
+        - nvim
+  - window_name: Phylo
+    panes: 
+      - shell_command:
+        - cd ~/repos/phylo/
+        - nvim
+  - window_name: rust
+    panes: 
+      - shell_command:
+        - cd ~/ZHAW/Track_2/rust-book-projects/
