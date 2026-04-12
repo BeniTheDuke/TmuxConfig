@@ -16,3 +16,14 @@ windows:
     panes: 
       - shell_command:
         - cd ~/ZHAW/Track_2/rust-book-projects/
+  - window_name: ModelExport
+    panes: 
+      - shell_command:
+        - cd /home/beni/ZHAW/Track_2/model_export
+        - srcnvim
+        - nvim
+  - window_name: ModelImport
+    panes: 
+      - shell_command:
+        - cd /home/beni/ZHAW/Track_2/model_import
+        - nvim
