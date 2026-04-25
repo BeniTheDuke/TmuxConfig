@@ -19,11 +19,11 @@ windows:
   - window_name: ModelExport
     panes: 
       - shell_command:
-        - cd ~/ZHAW/Track_2/model_export
+        - cd ~/ZHAW/Track_2/import-export-repo/model_export
         - srcnvim
         - nvim
   - window_name: ModelImport
     panes: 
       - shell_command:
-        - cd ~/ZHAW/Track_2/model_import
+        - cd ~/ZHAW/Track_2/import-export-repo/model_import
         - nvim
