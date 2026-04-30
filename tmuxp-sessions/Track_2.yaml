@@ -20,7 +20,7 @@ windows:
     panes: 
       - shell_command:
         - cd ~/ZHAW/Track_2/import-export-repo/model_export
-        - srcnvim
+        - source ~/.venvs/esm3/bin/activate
         - nvim
   - window_name: ModelImport
     panes: 
