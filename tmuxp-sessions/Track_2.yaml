@@ -1,5 +1,5 @@
 session_name: Track_2
-start_directory: ~/
+start_directory: ~/ZHAW/Track_2/
 
 windows:
   - window_name: Notes 

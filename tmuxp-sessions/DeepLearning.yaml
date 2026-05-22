@@ -1,0 +1,15 @@
+session_name: DeepLearning
+start_directory: ~/ZHAW/DeepLearning/
+
+windows:
+  - window_name: Notes 
+    panes: 
+      - shell_command:
+        - cd ~/Notes
+        - nvim DeepLearningProject.md
+  - window_name: Project
+    panes: 
+      - shell_command:
+        - source ~/.venvs/deepl/bin/activate
+        - cd ~/repos/waste_detection/
+        - nvim
