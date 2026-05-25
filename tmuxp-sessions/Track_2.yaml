@@ -27,3 +27,8 @@ windows:
       - shell_command:
         - cd ~/ZHAW/Track_2/import-export-repo/model_import
         - nvim
+  - window_name: SpeedTest
+    panes: 
+      - shell_command:
+        - cd ~/repos/ESM_SpeedTests/
+        - nvim
