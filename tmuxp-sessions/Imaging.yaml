@@ -1,0 +1,20 @@
+session_name: Imaging
+start_directory: ~/ZHAW/Imaging_for_the_Life_Sciences/
+
+windows:
+  - window_name: Notes 
+    panes: 
+      - shell_command:
+        - cd ~/Notes
+        - nvim
+  - window_name: Lecture Repo 
+    panes: 
+      - shell_command:
+        - cd git_repo_initial
+        - nvim
+  - window_name: Project Repo
+    panes: 
+      - shell_command:
+        - source ~/.venvs/imaging-project/bin/activate
+        - cd ~/repos/Whitecap-Segmentation/
+        - nvim
