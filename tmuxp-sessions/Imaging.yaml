@@ -18,3 +18,13 @@ windows:
         - source ~/.venvs/imaging-project/bin/activate
         - cd ~/repos/Whitecap-Segmentation/
         - nvim
+  - window_name: Jupyter
+    panes:
+      - shell_command:
+        - source ~/.venvs/imaging-project/bin/activate
+        - cd git_repo_initial
+        - jupyter lab --no-browser --port 8888
+      - shell_command:
+        - source ~/.venvs/imaging-project/bin/activate
+        - cd ~/repos/Whitecap-Segmentation/
+        - jupyter lab --no-browser --port 8889
